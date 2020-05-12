@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+	 xmlns:app="http://schemas.android.com/apk/res-auto"
+	 xmlns:tools="http://schemas.android.com/tools"
+	 android:id="@+id/sheikhCard"
+	 android:layout_width="wrap_content"
+	 android:layout_height="wrap_content"
+	 android:layout_margin="@dimen/layout_margin_5dp"
+	 android:elevation="@dimen/elevation_5dp"
+	 app:cardCornerRadius="@dimen/radius_5dp"
+	 app:cardElevation="@dimen/elevation_5dp"
+	 app:cardMaxElevation="@dimen/elevation_5dp"
+	 app:contentPadding="@dimen/padding_10dp">
+
+	 <androidx.constraintlayout.widget.ConstraintLayout
+		  android:layout_width="wrap_content"
+		  android:layout_height="wrap_content">
+
+		  <androidx.cardview.widget.CardView
+			   android:layout_width="wrap_content"
+			   android:layout_height="wrap_content"
+			   android:id="@+id/card_imgPlayer"
+			   app:cardCornerRadius="@dimen/radius_40dp"
+			   android:elevation="@dimen/elevation_5dp"
+			   app:layout_constraintEnd_toEndOf="parent"
+			   app:layout_constraintStart_toStartOf="parent"
+			   app:layout_constraintTop_toTopOf="parent"
+			   >
+			   <ImageView
+					android:id="@+id/img_SheikhCard"
+					android:layout_width="@dimen/layout_width_200dp"
+					android:layout_height="@dimen/layout_height_200dp"
+					android:scaleType="fitXY"
+					app:layout_constraintEnd_toEndOf="parent"
+					app:layout_constraintStart_toStartOf="parent"
+					app:layout_constraintTop_toTopOf="parent"
+					app:srcCompat="@drawable/sheikh2" />
+		  </androidx.cardview.widget.CardView>
+
+		  <View
+			   android:id="@+id/view"
+			   android:layout_width="@dimen/layout_width_200dp"
+			   android:layout_height="@dimen/layout_height_zero"
+			   android:layout_marginTop="@dimen/layout_margin_8dp"
+			   android:background="@color/error_color"
+			   app:layout_constraintBottom_toBottomOf="parent"
+			   app:layout_constraintEnd_toEndOf="@+id/card_imgPlayer"
+			   app:layout_constraintStart_toStartOf="@+id/card_imgPlayer"
+			   app:layout_constraintTop_toBottomOf="@+id/card_imgPlayer" />
+
+		  <TextView
+			   android:id="@+id/txtName_SheikhCard"
+			   android:layout_width="wrap_content"
+			   android:layout_height="wrap_content"
+			   android:text="TextView"
+			   android:textAlignment="center"
+			   android:textColor="@android:color/white"
+			   android:textStyle="bold"
+			   app:layout_constraintBottom_toBottomOf="parent"
+			   app:layout_constraintEnd_toEndOf="@+id/card_imgPlayer"
+			   app:layout_constraintStart_toStartOf="@+id/card_imgPlayer"
+			   app:layout_constraintTop_toTopOf="@+id/view" />
+	 </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

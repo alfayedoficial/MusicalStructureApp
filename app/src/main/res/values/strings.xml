@@ -1,0 +1,15 @@
+<resources>
+	 <string name="app_name">MusicalStructureApp</string>
+	 <string name="play_all_quran">Play All Quran</string>
+	 <string name="label_sheikhs">Sheikhs</string>
+	 <string name="label_riwayas">Riwayas</string>
+
+
+	 <string name="def_type">drawable</string>
+	 <string name="sheikhs">Sheikhs</string>
+	 <string name="playlist">PLAYLIST</string>
+	 <string name="playing">Playing.... </string>
+	 <string name="pause">Pause.... </string>
+
+
+</resources>

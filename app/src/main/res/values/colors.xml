@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	 <color name="colorPrimary">#5ECC85</color>
+	 <color name="colorPrimaryDark">#3C9C5E</color>
+	 <color name="colorAccent">#03DAC5</color>
+
+	 <!--gradient Color -->
+	 <color name="start_color">#9B78E5</color>
+	 <color name="end_color">#5ECC85</color>
+	 <color name="search_color">#40A764</color>
+
+	 <!--background Color	 -->
+	 <color name="background_color">#EAEDF4</color>
+	 <color name="background_cards">#e2e5eb</color>
+	 <color name="stock_order">#707070</color>
+
+	 <color name="white">#ffffff</color>
+	 <color name="error_color">#DA5D00</color>
+
+	 <!--	bottom nav-->
+	 <color name="background_nav">#3C9C5E</color>
+	 <color name="text_color_nav">#ffffff</color>
+	 <color name="item_selected_nav">#9B78E5</color>
+	 <color name="item_unselected_nav">#5ECC85</color>
+
+	 <!-- text Color -->
+	 <color name="text_black">#000000</color>
+	 <color name="text_white">#ffffff</color>
+
+	 <!--privacy policy & about us & setting-->
+	 <color name="black_bg_about">#000000</color>
+	 <color name="setting_text">#d6d6d6</color>
+	 <color name="setting_divider">#292b30</color>
+	 <color name="about_us_Text">#424242</color>
+	 <color name="about_us_SubText">#767676</color>
+
+	 <!-- colors for button style -->
+	 <color name="gradient_start_color">#4c84ff</color>
+	 <color name="gradient_end_color">#18a3fe</color>
+
+	 <!-- colors for tab and screent text -->
+	 <color name="tab_indicator_gray">#c0c0c0</color>
+	 <color name="intro_title_color">#000000</color>
+	 <color name="intro_description_color">#656565</color>
+
+
+
+</resources>

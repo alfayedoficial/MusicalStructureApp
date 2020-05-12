@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	 xmlns:app="http://schemas.android.com/apk/res-auto"
+	 xmlns:tools="http://schemas.android.com/tools"
+	 android:id="@+id/item_quran"
+	 android:layout_width="match_parent"
+	 android:layout_height="wrap_content"
+	 android:orientation="horizontal"
+	 android:padding="@dimen/layout_margin_5dp">
+
+
+
+	 <androidx.cardview.widget.CardView
+		  android:layout_width="wrap_content"
+		  android:layout_height="wrap_content"
+		  android:id="@+id/card_imgPlayer"
+		  app:cardCornerRadius="@dimen/radius_5dp"
+		  android:elevation="@dimen/radius_5dp"
+		  android:layout_gravity="start"
+		  >
+		  <ImageView
+			   android:id="@+id/item_quran_img_riwaya"
+			   android:layout_width="@dimen/layout_width_50dp"
+			   android:layout_height="@dimen/layout_height_50dp"
+			   android:scaleType="fitXY"
+			   tools:src="@drawable/sheikh1"/>
+
+	 </androidx.cardview.widget.CardView>
+
+	 <LinearLayout
+		  android:layout_width="@dimen/layout_width_zero"
+		  android:layout_height="wrap_content"
+		  android:layout_gravity="center_vertical"
+		  android:layout_weight="1"
+		  android:orientation="vertical"
+		  android:paddingStart="@dimen/layout_margin_5dp"
+		  android:paddingEnd="2dp">
+
+		  <TextView
+			   android:id="@+id/item_quran_title"
+			   style="@style/TitleStyle"
+			   android:layout_width="match_parent"
+			   android:layout_height="wrap_content"
+			   tools:text="No Roots" />
+
+		  <TextView
+			   android:id="@+id/item_quran_riwaya"
+			   style="@style/OtherTextStyle"
+			   android:layout_width="match_parent"
+			   android:layout_height="wrap_content"
+			   tools:text="No Roots" />
+
+		  <TextView
+			   android:id="@+id/item_quran_sheikh"
+			   style="@style/OtherTextStyle"
+			   android:layout_width="match_parent"
+			   android:layout_height="wrap_content"
+			   tools:text="Islam Sobhi" />
+
+	 </LinearLayout>
+
+
+</LinearLayout>
