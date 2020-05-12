@@ -1,6 +1,5 @@
 # MusicalStructureApp
 Third Project of Android nanodegrees
-# Quiz_App_Nanodegrees
 A project from the "Android Nanodegrees" course by Udacity and Google
 
 Description :
